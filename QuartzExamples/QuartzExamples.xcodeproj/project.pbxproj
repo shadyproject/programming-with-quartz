@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DD2046716B5C2440043A94C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DD2046616B5C2440043A94C /* Cocoa.framework */; };
+		2DD2047116B5C2440043A94C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DD2046F16B5C2440043A94C /* InfoPlist.strings */; };
+		2DD2047316B5C2440043A94C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2047216B5C2440043A94C /* main.m */; };
+		2DD2047716B5C2440043A94C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2DD2047516B5C2440043A94C /* Credits.rtf */; };
+		2DD2047A16B5C2440043A94C /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2047916B5C2440043A94C /* SPAppDelegate.m */; };
+		2DD2047D16B5C2440043A94C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DD2047B16B5C2440043A94C /* MainMenu.xib */; };
+		2DD204D416B7A5610043A94C /* SPQuartzExampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD204D316B7A5610043A94C /* SPQuartzExampleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DD2046216B5C2440043A94C /* QuartzExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuartzExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD2046616B5C2440043A94C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2DD2046916B5C2440043A94C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2DD2046A16B5C2440043A94C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2DD2046B16B5C2440043A94C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2DD2046E16B5C2440043A94C /* QuartzExamples-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuartzExamples-Info.plist"; sourceTree = "<group>"; };
+		2DD2047016B5C2440043A94C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2DD2047216B5C2440043A94C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DD2047416B5C2440043A94C /* QuartzExamples-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuartzExamples-Prefix.pch"; sourceTree = "<group>"; };
+		2DD2047616B5C2440043A94C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2DD2047816B5C2440043A94C /* SPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPAppDelegate.h; sourceTree = "<group>"; };
+		2DD2047916B5C2440043A94C /* SPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPAppDelegate.m; sourceTree = "<group>"; };
+		2DD2047C16B5C2440043A94C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2DD204D216B7A5610043A94C /* SPQuartzExampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPQuartzExampleView.h; sourceTree = "<group>"; };
+		2DD204D316B7A5610043A94C /* SPQuartzExampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPQuartzExampleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DD2045F16B5C2440043A94C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD2046716B5C2440043A94C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DD2045716B5C2440043A94C = {
+			isa = PBXGroup;
+			children = (
+				2DD2046C16B5C2440043A94C /* QuartzExamples */,
+				2DD2046516B5C2440043A94C /* Frameworks */,
+				2DD2046316B5C2440043A94C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DD2046316B5C2440043A94C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DD2046216B5C2440043A94C /* QuartzExamples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DD2046516B5C2440043A94C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DD2046616B5C2440043A94C /* Cocoa.framework */,
+				2DD2046816B5C2440043A94C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DD2046816B5C2440043A94C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DD2046916B5C2440043A94C /* AppKit.framework */,
+				2DD2046A16B5C2440043A94C /* CoreData.framework */,
+				2DD2046B16B5C2440043A94C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2DD2046C16B5C2440043A94C /* QuartzExamples */ = {
+			isa = PBXGroup;
+			children = (
+				2DD2048316B5C2580043A94C /* Headers */,
+				2DD2048416B5C2D30043A94C /* Implementations */,
+				2DD2048516B5C2ED0043A94C /* Xibs */,
+				2DD2046D16B5C2440043A94C /* Supporting Files */,
+			);
+			path = QuartzExamples;
+			sourceTree = "<group>";
+		};
+		2DD2046D16B5C2440043A94C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DD2046E16B5C2440043A94C /* QuartzExamples-Info.plist */,
+				2DD2046F16B5C2440043A94C /* InfoPlist.strings */,
+				2DD2047216B5C2440043A94C /* main.m */,
+				2DD2047416B5C2440043A94C /* QuartzExamples-Prefix.pch */,
+				2DD2047516B5C2440043A94C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DD2048316B5C2580043A94C /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				2DD2047816B5C2440043A94C /* SPAppDelegate.h */,
+				2DD204D216B7A5610043A94C /* SPQuartzExampleView.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		2DD2048416B5C2D30043A94C /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				2DD204D316B7A5610043A94C /* SPQuartzExampleView.m */,
+				2DD2047916B5C2440043A94C /* SPAppDelegate.m */,
+			);
+			name = Implementations;
+			sourceTree = "<group>";
+		};
+		2DD2048516B5C2ED0043A94C /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				2DD2047B16B5C2440043A94C /* MainMenu.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DD2046116B5C2440043A94C /* QuartzExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DD2048016B5C2440043A94C /* Build configuration list for PBXNativeTarget "QuartzExamples" */;
+			buildPhases = (
+				2DD2045E16B5C2440043A94C /* Sources */,
+				2DD2045F16B5C2440043A94C /* Frameworks */,
+				2DD2046016B5C2440043A94C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuartzExamples;
+			productName = QuartzExamples;
+			productReference = 2DD2046216B5C2440043A94C /* QuartzExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DD2045916B5C2440043A94C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Shadyproject;
+			};
+			buildConfigurationList = 2DD2045C16B5C2440043A94C /* Build configuration list for PBXProject "QuartzExamples" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2DD2045716B5C2440043A94C;
+			productRefGroup = 2DD2046316B5C2440043A94C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DD2046116B5C2440043A94C /* QuartzExamples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DD2046016B5C2440043A94C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD2047116B5C2440043A94C /* InfoPlist.strings in Resources */,
+				2DD2047716B5C2440043A94C /* Credits.rtf in Resources */,
+				2DD2047D16B5C2440043A94C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DD2045E16B5C2440043A94C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD2047316B5C2440043A94C /* main.m in Sources */,
+				2DD2047A16B5C2440043A94C /* SPAppDelegate.m in Sources */,
+				2DD204D416B7A5610043A94C /* SPQuartzExampleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2DD2046F16B5C2440043A94C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DD2047016B5C2440043A94C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2DD2047516B5C2440043A94C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DD2047616B5C2440043A94C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2DD2047B16B5C2440043A94C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DD2047C16B5C2440043A94C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DD2047E16B5C2440043A94C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2DD2047F16B5C2440043A94C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2DD2048116B5C2440043A94C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuartzExamples/QuartzExamples-Prefix.pch";
+				INFOPLIST_FILE = "QuartzExamples/QuartzExamples-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2DD2048216B5C2440043A94C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuartzExamples/QuartzExamples-Prefix.pch";
+				INFOPLIST_FILE = "QuartzExamples/QuartzExamples-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DD2045C16B5C2440043A94C /* Build configuration list for PBXProject "QuartzExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD2047E16B5C2440043A94C /* Debug */,
+				2DD2047F16B5C2440043A94C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DD2048016B5C2440043A94C /* Build configuration list for PBXNativeTarget "QuartzExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD2048116B5C2440043A94C /* Debug */,
+				2DD2048216B5C2440043A94C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DD2045916B5C2440043A94C /* Project object */;
+}
