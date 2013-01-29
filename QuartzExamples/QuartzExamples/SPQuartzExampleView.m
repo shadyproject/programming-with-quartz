@@ -14,13 +14,16 @@
 
 - (void)drawRect:(NSRect)dirtyRect
 {
-    [self doSimpleRect];
+    CGContextRef context = [[NSGraphicsContext currentContext] graphicsPort];
+    
+    //[self drawSimpleRectInContext:context];
+    [self drawStrokedRectInContext:context];
 }
 
-- (void)doSimpleRect
+//Listing 2.1
+- (void)drawSimpleRectInContext:(CGContextRef)context
 {
     CGRect ourRect;
-    CGContextRef context = [[NSGraphicsContext currentContext] graphicsPort];
     
     CGContextSetRGBFillColor(context, 1.0, 0.0, 0.0, 1.0);
     
@@ -29,6 +32,26 @@
     ourRect.size.height = 100.0;
     
     CGContextFillRect(context, ourRect);
+    
+}
+
+//Listing 2.2
+- (void) drawStrokedRectInContext:(CGContextRef)context
+{
+    CGRect ourRect;
+    
+    CGContextSetRGBStrokeColor(context, 0.482, 0.62, 0.871, 1.0);
+    
+    ourRect.origin.x = ourRect.origin.y = 20.0;
+    ourRect.size.width = 130.0;
+    ourRect.size.height = 100.0;
+    
+    CGContextStrokeRectWithWidth(context, ourRect, 3.0);
+}
+
+//Listing 2.3
+- (void)drawStrokedAndFilledRectInContext:(CGContextRef)context
+{
     
 }
 
