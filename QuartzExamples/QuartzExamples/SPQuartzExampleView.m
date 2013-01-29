@@ -12,17 +12,21 @@
 
 @synthesize exampleMenu;
 
+#pragma mark -
+#pragma mark Overrides
+
 - (void)drawRect:(NSRect)dirtyRect
 {
-    CGContextRef context = [[NSGraphicsContext currentContext] graphicsPort];
-    
-    //[self drawSimpleRectInContext:context];
-    [self drawStrokedRectInContext:context];
+    [self drawStrokedRect];
 }
 
+#pragma mark -
+#pragma mark Quartz Examples
+
 //Listing 2.1
-- (void)drawSimpleRectInContext:(CGContextRef)context
+- (void)drawSimpleRect
 {
+    CGContextRef context = [[NSGraphicsContext currentContext] graphicsPort];
     CGRect ourRect;
     
     CGContextSetRGBFillColor(context, 1.0, 0.0, 0.0, 1.0);
@@ -33,11 +37,13 @@
     
     CGContextFillRect(context, ourRect);
     
+    [self setNeedsDisplay:YES];
 }
 
 //Listing 2.2
-- (void) drawStrokedRectInContext:(CGContextRef)context
+- (void) drawStrokedRect
 {
+    CGContextRef context = [[NSGraphicsContext currentContext] graphicsPort];
     CGRect ourRect;
     
     CGContextSetRGBStrokeColor(context, 0.482, 0.62, 0.871, 1.0);
@@ -50,9 +56,9 @@
 }
 
 //Listing 2.3
-- (void)drawStrokedAndFilledRectInContext:(CGContextRef)context
+- (void)drawStrokedAndFilledRect
 {
-    
+    CGContextRef context = [[NSGraphicsContext currentContext] graphicsPort];
 }
 
 #pragma mark -
