@@ -10,14 +10,11 @@
 
 @implementation SPQuartzExampleView
 
-@synthesize exampleMenu;
-
 #pragma mark -
 #pragma mark Overrides
 
 - (void)drawRect:(NSRect)dirtyRect
 {
-    [self drawStrokedRect];
 }
 
 #pragma mark -
@@ -59,14 +56,28 @@
 - (void)drawStrokedAndFilledRect
 {
     CGContextRef context = [[NSGraphicsContext currentContext] graphicsPort];
+    CGRect ourRect = {{20.0, 220.0}, {130.0, 100.0}};
+    
+    //First Rect
+    CGContextSetRGBFillColor(context, 0.482, 0.62, 0.871, 1.0);
+    CGContextSetRGBStrokeColor(context, 0.404, 0.808, 0.239, 1.0);
+    CGContextFillRect(context, ourRect);
+    
+    //second rect
+    ourRect.origin.x += 200.0;
+    CGContextStrokeRectWithWidth(context, ourRect, 10.0);
+    
+    //third rect, fill then stroke
+    ourRect.origin.x -= 200.0;
+    ourRect.origin.y -= 200.0;
+    CGContextFillRect(context, ourRect);
+    CGContextStrokeRectWithWidth(context, ourRect, 10.0);
+    
+    //fourth rect, stroke then fill
+    ourRect.origin.x += 200.0;
+    CGContextStrokeRectWithWidth(context, ourRect, 10.0);
+    CGContextFillRect(context, ourRect);
+    
+    [self setNeedsDisplay:YES];
 }
-
-#pragma mark -
-#pragma mark IBActions
-- (IBAction)drawExample:(id)sender
-{
-    NSMenuItem *item = [exampleMenu selectedItem];
-    NSLog(@"Drawing Example %@", item);
-}
-
 @end

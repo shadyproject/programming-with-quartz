@@ -10,8 +10,8 @@
 
 @interface SPQuartzExampleView : NSView
 
-@property IBOutlet NSPopUpButton *exampleMenu;
-
-- (IBAction)drawExample:(id)sender;
+- (void)drawSimpleRect;
+- (void)drawStrokedRect;
+- (void)drawStrokedAndFilledRect;
 
 @end
