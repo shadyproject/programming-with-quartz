@@ -7,16 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D264A0F16B8DEFD00D49B3B /* SPListing2point1View.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D264A0E16B8DEFD00D49B3B /* SPListing2point1View.m */; };
+		2D264A1316B8E09500D49B3B /* SPListing2point2View.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D264A1216B8E09500D49B3B /* SPListing2point2View.m */; };
+		2D264A1616B8E10000D49B3B /* SPListing2point3View.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D264A1516B8E10000D49B3B /* SPListing2point3View.m */; };
+		2D264A1916B8E6AC00D49B3B /* SPListingViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D264A1816B8E6AC00D49B3B /* SPListingViewFactory.m */; };
+		2DB1FD2516B8EB0B0057AA70 /* SPDefaultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1FD2416B8EB0B0057AA70 /* SPDefaultView.m */; };
 		2DD2046716B5C2440043A94C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DD2046616B5C2440043A94C /* Cocoa.framework */; };
 		2DD2047116B5C2440043A94C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DD2046F16B5C2440043A94C /* InfoPlist.strings */; };
 		2DD2047316B5C2440043A94C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2047216B5C2440043A94C /* main.m */; };
 		2DD2047716B5C2440043A94C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2DD2047516B5C2440043A94C /* Credits.rtf */; };
 		2DD2047A16B5C2440043A94C /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2047916B5C2440043A94C /* SPAppDelegate.m */; };
 		2DD2047D16B5C2440043A94C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DD2047B16B5C2440043A94C /* MainMenu.xib */; };
-		2DD204D416B7A5610043A94C /* SPQuartzExampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD204D316B7A5610043A94C /* SPQuartzExampleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D264A0D16B8DEFD00D49B3B /* SPListing2point1View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPListing2point1View.h; sourceTree = "<group>"; };
+		2D264A0E16B8DEFD00D49B3B /* SPListing2point1View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPListing2point1View.m; sourceTree = "<group>"; };
+		2D264A1116B8E09500D49B3B /* SPListing2point2View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPListing2point2View.h; sourceTree = "<group>"; };
+		2D264A1216B8E09500D49B3B /* SPListing2point2View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPListing2point2View.m; sourceTree = "<group>"; };
+		2D264A1416B8E10000D49B3B /* SPListing2point3View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPListing2point3View.h; sourceTree = "<group>"; };
+		2D264A1516B8E10000D49B3B /* SPListing2point3View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPListing2point3View.m; sourceTree = "<group>"; };
+		2D264A1716B8E6AC00D49B3B /* SPListingViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPListingViewFactory.h; sourceTree = "<group>"; };
+		2D264A1816B8E6AC00D49B3B /* SPListingViewFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPListingViewFactory.m; sourceTree = "<group>"; };
+		2DB1FD2316B8EB0B0057AA70 /* SPDefaultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDefaultView.h; sourceTree = "<group>"; };
+		2DB1FD2416B8EB0B0057AA70 /* SPDefaultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDefaultView.m; sourceTree = "<group>"; };
 		2DD2046216B5C2440043A94C /* QuartzExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuartzExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD2046616B5C2440043A94C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		2DD2046916B5C2440043A94C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -30,8 +44,6 @@
 		2DD2047816B5C2440043A94C /* SPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPAppDelegate.h; sourceTree = "<group>"; };
 		2DD2047916B5C2440043A94C /* SPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPAppDelegate.m; sourceTree = "<group>"; };
 		2DD2047C16B5C2440043A94C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		2DD204D216B7A5610043A94C /* SPQuartzExampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPQuartzExampleView.h; sourceTree = "<group>"; };
-		2DD204D316B7A5610043A94C /* SPQuartzExampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPQuartzExampleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +58,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D264A1016B8E07600D49B3B /* Listing Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D264A0D16B8DEFD00D49B3B /* SPListing2point1View.h */,
+				2D264A0E16B8DEFD00D49B3B /* SPListing2point1View.m */,
+				2D264A1116B8E09500D49B3B /* SPListing2point2View.h */,
+				2D264A1216B8E09500D49B3B /* SPListing2point2View.m */,
+				2D264A1416B8E10000D49B3B /* SPListing2point3View.h */,
+				2D264A1516B8E10000D49B3B /* SPListing2point3View.m */,
+				2DB1FD2316B8EB0B0057AA70 /* SPDefaultView.h */,
+				2DB1FD2416B8EB0B0057AA70 /* SPDefaultView.m */,
+			);
+			name = "Listing Views";
+			sourceTree = "<group>";
+		};
 		2DD2045716B5C2440043A94C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +112,7 @@
 		2DD2046C16B5C2440043A94C /* QuartzExamples */ = {
 			isa = PBXGroup;
 			children = (
+				2D264A1016B8E07600D49B3B /* Listing Views */,
 				2DD2048316B5C2580043A94C /* Headers */,
 				2DD2048416B5C2D30043A94C /* Implementations */,
 				2DD2048516B5C2ED0043A94C /* Xibs */,
@@ -108,8 +136,8 @@
 		2DD2048316B5C2580043A94C /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				2D264A1716B8E6AC00D49B3B /* SPListingViewFactory.h */,
 				2DD2047816B5C2440043A94C /* SPAppDelegate.h */,
-				2DD204D216B7A5610043A94C /* SPQuartzExampleView.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -117,7 +145,7 @@
 		2DD2048416B5C2D30043A94C /* Implementations */ = {
 			isa = PBXGroup;
 			children = (
-				2DD204D316B7A5610043A94C /* SPQuartzExampleView.m */,
+				2D264A1816B8E6AC00D49B3B /* SPListingViewFactory.m */,
 				2DD2047916B5C2440043A94C /* SPAppDelegate.m */,
 			);
 			name = Implementations;
@@ -198,7 +226,11 @@
 			files = (
 				2DD2047316B5C2440043A94C /* main.m in Sources */,
 				2DD2047A16B5C2440043A94C /* SPAppDelegate.m in Sources */,
-				2DD204D416B7A5610043A94C /* SPQuartzExampleView.m in Sources */,
+				2D264A0F16B8DEFD00D49B3B /* SPListing2point1View.m in Sources */,
+				2D264A1316B8E09500D49B3B /* SPListing2point2View.m in Sources */,
+				2D264A1616B8E10000D49B3B /* SPListing2point3View.m in Sources */,
+				2D264A1916B8E6AC00D49B3B /* SPListingViewFactory.m in Sources */,
+				2DB1FD2516B8EB0B0057AA70 /* SPDefaultView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

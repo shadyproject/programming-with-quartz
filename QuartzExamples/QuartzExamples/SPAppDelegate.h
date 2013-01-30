@@ -7,17 +7,13 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "SPQuartzExampleView.h"
 
-//yuck
-const NSUInteger kListing2point1 = 1;
-const NSUInteger kListing2point2 = 2;
-const NSUInteger kListing2point3 = 3;
+const NSUInteger kThing = 42;
 
 @interface SPAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
-@property (retain) IBOutlet SPQuartzExampleView *exampleView;
+@property (retain) IBOutlet NSView *exampleView;
 @property (retain) IBOutlet NSPopUpButton *exampleMenu;
 
 @end
